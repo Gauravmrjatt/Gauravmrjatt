@@ -1,45 +1,101 @@
-# Hi 👋, I'm Gaurav Chaudhary
+# Hi 👋, I'm Gaurav Chaudhary  
 
-### An experienced Javascript developer
+### 🚀 Experienced JavaScript Developer | Full-Stack Engineer  
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile views&color=0e75b6&style=flat" alt="Gauravmrjatt" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt" alt="Gauravmrjatt" /></a> </p>
-
-- 🔭 I'm currently working on **Codellab**
-
-- 🌱 I'm currently learning **Kafka **
-
-- 👯 I'm looking to collaborate on **Open source **
-
-- 🤝 I'm looking for help with **Learning system design **
-
-- 💬 Ask me about **React, Node js , Nextjs**
-
-- 📫 How to reach me **gauravmrjatt4@gmail.com**
-
-- ⚡ Fun fact **I think I'm funny **
-
-- 👨‍💻 All of my projects are available at **[https://gauravmrjatt.vercel.app/](https://gauravmrjatt.vercel.app/)**
-
-- 📄 Know about my experiences **[https://gauravmrjatt.vercel.app/resume.pdf](https://gauravmrjatt.vercel.app/resume.pdf)**
-
-<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://github.com/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
-<a href="https://codepen.io/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
-<a href="https://instagram.com/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
-<a href="https://leetcode.com/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/Gauravmrjatt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="Gauravmrjatt" height="30" width="40" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" alt="Gauravmrjatt" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/aws" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bash" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/c" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/chartjs" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/chartdotjs/FF6384" alt="chartjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/firebase" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=firebase" alt="firebase" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/grafana" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=grafana" alt="grafana" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/graphql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=graphql" alt="graphql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jest" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=jest" alt="jest" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kafka" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kafka" alt="kafka" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kubernetes" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/materialize" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matlab" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=matlab" alt="matlab" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/matplotlib" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nextjs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nginx" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/opencv" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=opencv" alt="opencv" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/php" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=php" alt="php" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postman" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postman" alt="postman" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pug" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pug" alt="pug" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/rabbitMQ" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=rabbitmq" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/redis" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=redis" alt="redis" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a></p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&show_icons=true&locale=en&layout=compact" alt="Gauravmrjatt" /></p>
+## 🧠 About Me  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true&locale=en" alt="Gauravmrjatt" /></p>
+- 🔭 Currently working on **Codellab**
+- 🌱 Learning **Apache Kafka** and distributed systems
+- 👯 Looking to collaborate on **Open Source projects**
+- 🤝 Seeking guidance in **System Design**
+- 💬 Ask me about **React, Node.js, Next.js**
+- ⚡ Fun fact: *I think I’m funny* 😄
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Gauravmrjatt&" alt="Gauravmrjatt" /></p>
+---
 
+## 🌐 Portfolio & Resume  
+
+- 👨‍💻 **Projects:** [https://gauravmrjatt.vercel.app](https://gauravmrjatt.vercel.app)  
+- 📄 **Resume:** [View PDF](https://gauravmrjatt.vercel.app/resume.pdf)  
+- 📫 **Email:** gauravmrjatt4@gmail.com  
+
+---
+
+## 🏆 GitHub Achievements  
+
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
+  </a>
+</p>
+
+---
+
+## 🤝 Connect With Me  
+
+<p align="left">
+  <a href="https://github.com/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40"/>
+  </a>
+  <a href="https://linkedin.com/in/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
+  </a>
+  <a href="https://codepen.io/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" height="30" width="40"/>
+  </a>
+  <a href="https://instagram.com/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40"/>
+  </a>
+  <a href="https://leetcode.com/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
+  </a>
+  <a href="https://auth.geeksforgeeks.org/user/Gauravmrjatt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30" width="40"/>
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech Stack  
+
+### Languages & Frameworks  
+**JavaScript · TypeScript · React · Next.js · Node.js · Express · Java · Python · PHP · C**
+
+### Databases & Messaging  
+**MongoDB · PostgreSQL · MySQL · Redis · Kafka · RabbitMQ**
+
+### DevOps & Cloud  
+**Docker · Kubernetes · AWS · Nginx · Linux · Git · Grafana**
+
+### Tools & Libraries  
+**GraphQL · Jest · Postman · Firebase · Tailwind CSS · Material UI · Chart.js**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgres,redis,kafka,docker,kubernetes,aws,nginx,linux,git,graphql,tailwind" />
+</p>
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&show_icons=true&locale=en&layout=compact" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true&locale=en" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gauravmrjatt" />
+</p>
+
+---
+
+⭐️ From [Gaurav Chaudhary](https://github.com/Gauravmrjatt)
