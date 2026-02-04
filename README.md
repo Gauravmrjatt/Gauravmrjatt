@@ -1,83 +1,76 @@
-# Hi 👋, I'm Gaurav Chaudhary  
+# 👋 Hi, I'm Gaurav Chaudhary  
 
-### 🚀 Experienced JavaScript Developer | Full-Stack Engineer  
+### 💻 JavaScript | Full-Stack Developer  
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" alt="Gauravmrjatt" />
+  <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
 ---
 
 ## 🧠 About Me  
 
-- 🔭 Currently working on **Codellab**
-- 🌱 Learning **Apache Kafka** and distributed systems
-- 👯 Looking to collaborate on **Open Source projects**
-- 🤝 Seeking guidance in **System Design**
-- 💬 Ask me about **React, Node.js, Next.js**
-- ⚡ Fun fact: *I think I’m funny* 😄
+- 🔭 Working on **Codellab**
+- 🌱 Learning **Kafka & Distributed Systems**
+- 👯 Open to **Open Source Collaboration**
+- 🤝 Exploring **System Design**
+- 💬 **React · Node.js · Next.js**
+- ⚡ *Thinks he’s funny* 😄
 
 ---
 
-## 🌐 Portfolio & Resume  
+## 🌐 Links  
 
-- 👨‍💻 **Projects:** [https://gauravmrjatt.vercel.app](https://gauravmrjatt.vercel.app)  
-- 📄 **Resume:** [View PDF](https://gauravmrjatt.vercel.app/resume.pdf)  
-- 📫 **Email:** gauravmrjatt4@gmail.com  
+- 🌍 Portfolio → https://gauravmrjatt.vercel.app  
+- 📄 Resume → https://gauravmrjatt.vercel.app/resume.pdf  
+- 📫 Mail → **gauravmrjatt4@gmail.com**
 
 ---
 
-## 🏆 GitHub Achievements  
+## 🤝 Connect  
 
 <p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
-  </a>
-</p>
-
----
-
-## 🤝 Connect With Me  
-
-<p align="left">
-  <a href="https://github.com/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40"/>
-  </a>
-  <a href="https://linkedin.com/in/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
-  </a>
-  <a href="https://codepen.io/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" height="30" width="40"/>
-  </a>
-  <a href="https://instagram.com/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40"/>
-  </a>
-  <a href="https://leetcode.com/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/Gauravmrjatt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" height="30" width="40"/>
-  </a>
+  <a href="https://github.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://linkedin.com/in/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://codepen.io/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=codepen" /></a>
+  <a href="https://instagram.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=instagram" /></a>
 </p>
 
 ---
 
 ## 🛠️ Tech Stack  
 
-### Languages & Frameworks  
-**JavaScript · TypeScript · React · Next.js · Node.js · Express · Java · Python · PHP · C**
+### 💻 Languages  
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,java,python,php,c" />
+</p>
 
-### Databases & Messaging  
-**MongoDB · PostgreSQL · MySQL · Redis · Kafka · RabbitMQ**
+### ⚙️ Frameworks & Libraries  
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,graphql,tailwind,materialui" />
+</p>
 
-### DevOps & Cloud  
-**Docker · Kubernetes · AWS · Nginx · Linux · Git · Grafana**
+### 🗄️ Databases & Messaging  
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,kafka,rabbitmq" />
+</p>
 
-### Tools & Libraries  
-**GraphQL · Jest · Postman · Firebase · Tailwind CSS · Material UI · Chart.js**
+### ☁️ DevOps & Cloud  
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,nginx,linux,git,grafana" />
+</p>
+
+### 🧪 Tools  
+<p>
+  <img src="https://skillicons.dev/icons?i=jest,postman,firebase" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies  
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgres,redis,kafka,docker,kubernetes,aws,nginx,linux,git,graphql,tailwind" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&theme=onedark&margin-w=10" />
 </p>
 
 ---
@@ -85,11 +78,11 @@
 ## 📊 GitHub Stats  
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&show_icons=true&locale=en&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&layout=compact" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true&locale=en" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true" />
 </p>
 
 <p align="center">
@@ -98,4 +91,4 @@
 
 ---
 
-⭐️ From [Gaurav Chaudhary](https://github.com/Gauravmrjatt)
+⭐️ From **Gaurav Chaudhary**
