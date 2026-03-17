@@ -15,7 +15,7 @@
 - 👯 Open to **Open Source Collaboration**
 - 🤝 Exploring **System Design**
 - 💬 **React · Node.js · Next.js**
-- ⚡ *Thinks he’s funny* 😄
+- ⚡ ** 😄
 
 ---
 
