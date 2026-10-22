@@ -1,94 +1,85 @@
-# 👋 Hi, I'm Gaurav Chaudhary  
+# Gaurav Chaudhary
 
-### 💻 JavaScript | Full-Stack Developer  
+**Full-Stack Engineer** — TypeScript, Next.js, Node.js.
+I build web apps end to end: data model, API, UI, deployment.
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" />
-</p>
-
----
-
-## 🧠 About Me  
-
-- 🔭 Working on **Codellab**
-- 🌱 Learning **Kafka & Distributed Systems**
-- 👯 Open to **Open Source Collaboration**
-- 🤝 Exploring **System Design**
-- 💬 **React · Node.js · Next.js**
-- ⚡ ** 😄
+[Portfolio](https://gauravmrjatt.vercel.app) · [Resume](https://gauravmrjatt.vercel.app/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Email](mailto:gauravmrjatt4@gmail.com)
 
 ---
 
-## 🌐 Links  
+## Selected work
 
-- 🌍 Portfolio → https://gauravmrjatt.vercel.app  
-- 📄 Resume → https://gauravmrjatt.vercel.app/resume.pdf  
-- 📫 Mail → **gauravmrjatt4@gmail.com**
+### Instant Panel — affiliate & campaign management
+Ops platform for affiliate campaigns: postback ingestion, lead management, and payout processing through a RabbitMQ queue. Redis caching for hot reads, Prometheus metrics, and a Telegram bot for ops alerting.
 
----
+`Next.js` `Express` `MongoDB` `Redis` `RabbitMQ` `Docker`
 
-## 🤝 Connect  
+→ [Source](https://github.com/Gauravmrjatt/instant-panel)
 
-<p align="left">
-  <a href="https://github.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=github" /></a>
-  <a href="https://linkedin.com/in/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://codepen.io/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=codepen" /></a>
-  <a href="https://instagram.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=instagram" /></a>
-</p>
+### Cashbackwallah — logistics & shipping
+Shipping platform covering rate calculation, order creation and tracking, wallet and transactions, plus a franchise network with referral commissions and payouts. Admin console handles OTP and KYC flows.
 
----
+`Next.js 16` `Express` `MongoDB` `JWT` `Tailwind`
 
-## 🛠️ Tech Stack  
+→ [Source](https://github.com/Gauravmrjatt/cheapship)
 
-### 💻 Languages  
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,java,python,php,c" />
-</p>
+### TicketHub — event ticketing
+Event creation, seat booking, and an admin approval workflow for ticket issuance. Deployed and live.
 
-### ⚙️ Frameworks & Libraries  
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,graphql,tailwind,materialui" />
-</p>
+`Next.js 15` `React 19` `MongoDB` `shadcn/ui`
 
-### 🗄️ Databases & Messaging  
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,kafka,rabbitmq" />
-</p>
+→ [Live](https://ticket-hub-ten.vercel.app) · [Source](https://github.com/Gauravmrjatt/TicketHub)
 
-### ☁️ DevOps & Cloud  
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,nginx,linux,git,grafana" />
-</p>
+### Codellab — collaborative coding platform
+Real-time collaborative editing with CRDTs, plus a Docker-sandboxed judge that executes Node, Python, Java and C++ submissions for contests.
 
-### 🧪 Tools  
-<p>
-  <img src="https://skillicons.dev/icons?i=jest,postman,firebase" />
-</p>
+`Next.js` `WebSocket` `Yjs` `PostgreSQL` `Docker`
 
----
+→ [Source](https://github.com/Gauravmrjatt/Codellab)
 
-## 🏆 GitHub Trophies  
+<details>
+<summary><b>More projects</b></summary>
 
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&theme=onedark&margin-w=10" />
-</p>
+<br/>
+
+| Project | What it is | Stack | |
+|---|---|---|---|
+| **DataVault** | Unlimited cloud storage, with Telegram used as the storage backend | Next.js · Express · MongoDB | [Live](https://datavault-two.vercel.app) · [Repo](https://github.com/Gauravmrjatt/datavault) |
+| **Telegram Bot** | Group management: join approvals, force-join verification, tracked broadcasts | TypeScript · Telegraf · Redis | [Repo](https://github.com/Gauravmrjatt/tg-bot) |
+| **EcoFinds** | Sustainable marketplace with cart, checkout and sales dashboard | Next.js · Express | [Live](https://eco-finds-sage.vercel.app) · [Repo](https://github.com/Gauravmrjatt/EcoFinds) |
+| **Tod-AI** | Alphabet learning game for toddlers, with phonetic audio | Next.js · React · Tailwind | [Live](https://tod-ai-teal.vercel.app) · [Repo](https://github.com/Gauravmrjatt/tod-ai) |
+| **Job Portal** | Job listings and applications, Next.js rebuilt for Vercel | Next.js · Node.js | [Repo](https://github.com/Gauravmrjatt/Job-Portal) |
+
+</details>
 
 ---
 
-## 📊 GitHub Stats  
+## Currently
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&layout=compact" />
-</p>
+- Building **Instant Panel** — campaign tracking and payout automation
+- Going deeper on **distributed systems**: message queues, idempotency, and failure handling
+- Open to **full-stack and backend roles**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gauravmrjatt" />
-</p>
+<sub>Last updated: October 2026</sub>
 
 ---
 
-⭐️ From **Gaurav Chaudhary**
+## Stack
+
+**Languages** — TypeScript · JavaScript · Python · SQL · Java
+
+**Frontend** — React · Next.js · Tailwind CSS · shadcn/ui · MUI · Zustand · TanStack Query
+
+**Backend** — Node.js · Express · Payload CMS · REST · WebSocket · JWT
+
+**Data** — PostgreSQL · MongoDB · Redis
+
+**Infra** — Docker · RabbitMQ · Prometheus · Nginx · Vercel · Git
+
+---
+
+## Let's talk
+
+I'm happy to discuss full-stack work, backend design, or anything queue-shaped.
+
+[gauravmrjatt4@gmail.com](mailto:gauravmrjatt4@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Portfolio](https://gauravmrjatt.vercel.app)
