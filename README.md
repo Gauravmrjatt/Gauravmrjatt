@@ -21,7 +21,7 @@ I build and run production systems: a multi-carrier logistics platform with paym
 ## About
 
 - 🔧 **Building** — [hookfire](https://github.com/Gauravmrjatt/hookfire), a webhook delivery engine in Go: at-least-once delivery, retries with backoff, dead-letter queue, idempotent ingestion, Redis rate limiting, Kubernetes with HPA
-- 🧠 **Working in** — Go, PostgreSQL, Redis, RabbitMQ, Kubernetes
+- 🧠 **Working in** — Go, PostgreSQL, Redis, RabbitMQ; Kubernetes manifests and HPA, not yet run in production
 - 🎯 **Looking for** — 2027 new-grad Backend / SDE roles
 - 👥 **Open to** — open-source collaboration on Go and distributed-systems tooling
 
@@ -104,3 +104,4 @@ Two people edit the same file through Yjs over WebSockets, then submit to a judg
 ---
 
 [gauravmrjatt4@gmail.com](mailto:gauravmrjatt4@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Portfolio](https://gauravmrjatt.vercel.app) · [Resume](https://gauravmrjatt.vercel.app/resume.pdf)
+
