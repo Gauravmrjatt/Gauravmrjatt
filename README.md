@@ -1,11 +1,97 @@
-# Gaurav Chaudhary
+# 👋 Hi, I'm Gaurav Chaudhary  
 
-Full-stack engineer working in TypeScript, Next.js and Node.
-I build the whole thing: schema, API, interface, deploy.
+### 💻 JavaScript | Full-Stack Developer  
 
-[Portfolio](https://gauravmrjatt.vercel.app) · [Resume](https://gauravmrjatt.vercel.app/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Email](mailto:gauravmrjatt4@gmail.com)
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 
 ---
+
+## 🧠 About Me  
+
+- 🔭 Working on **Codellab**
+- 🌱 Learning **Kafka & Distributed Systems**
+- 👯 Open to **Open Source Collaboration**
+- 🤝 Exploring **System Design**
+- 💬 **React · Node.js · Next.js**
+- ⚡ ** 😄
+
+---
+
+## 🌐 Links  
+
+- 🌍 Portfolio → https://gauravmrjatt.vercel.app  
+- 📄 Resume → https://gauravmrjatt.vercel.app/resume.pdf  
+- 📫 Mail → **gauravmrjatt4@gmail.com**
+
+---
+
+## 🤝 Connect  
+
+<p align="left">
+  <a href="https://github.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="https://linkedin.com/in/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://codepen.io/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=codepen" /></a>
+  <a href="https://instagram.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=instagram" /></a>
+</p>
+
+---
+
+## 🛠️ Tech Stack  
+
+### 💻 Languages  
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,java,python,php,c" />
+</p>
+
+### ⚙️ Frameworks & Libraries  
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,graphql,tailwind,materialui" />
+</p>
+
+### 🗄️ Databases & Messaging  
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,kafka,rabbitmq" />
+</p>
+
+### ☁️ DevOps & Cloud  
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,nginx,linux,git,grafana" />
+</p>
+
+### 🧪 Tools  
+<p>
+  <img src="https://skillicons.dev/icons?i=jest,postman,firebase" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies  
+
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&theme=onedark&margin-w=10" />
+</p>
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&layout=compact" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gauravmrjatt" />
+</p>
+
+---
+
+
 
 ## Selected work
 
@@ -53,34 +139,6 @@ A school management API. Apollo GraphQL with WebSocket subscriptions over 10 Pri
 
 </details>
 
----
 
-## Currently
-
-- Building Instant Panel, mostly the payout side
-- Learning distributed systems properly: queues, idempotency, what happens when a consumer dies mid batch
-- Open to full-stack and backend roles
-
-<sub>Last updated: October 2026</sub>
-
----
-
-## Stack
-
-**Languages** TypeScript · JavaScript · Python · SQL · Java
-
-**Frontend** React · Next.js · Tailwind CSS · shadcn/ui · MUI · Zustand · TanStack Query
-
-**Backend** Node.js · Express · Apollo GraphQL · Payload CMS · REST · WebSocket · JWT
-
-**Data** PostgreSQL · Prisma · MongoDB · Redis
-
-**Infra** Docker · RabbitMQ · Kafka · Prometheus · Nginx · Vercel
-
----
-
-## Let's talk
-
-Happy to talk about full-stack work, backend design, or anything queue-shaped.
 
 [gauravmrjatt4@gmail.com](mailto:gauravmrjatt4@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Portfolio](https://gauravmrjatt.vercel.app)
