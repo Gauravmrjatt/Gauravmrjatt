@@ -32,6 +32,18 @@ I build and run production systems: a multi-carrier logistics platform with paym
 ### Hookfire — webhook delivery engine
 A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, CI and 10 test files.
 
+**Measured, not estimated** (single Apple M2, Go 1.22, Postgres 16 + Redis 7 in Docker, Nov 2026):
+
+| Scenario | Result |
+|---|---|
+| 10,000 events x 100 endpoints | **1,000,000 deliveries** |
+| Delivery throughput, 40 workers | **3,041 deliveries/s** — 0 failures, 0 dead letters |
+| Delivery throughput, 10 workers | 2,066 deliveries/s (4x workers = 1.47x, so replicas beat goroutines) |
+| 4,000 concurrent duplicate postbacks, 200 keys | exactly **200 events**, 0 duplicates |
+| HMAC sign | 439 ns/op, about 2.3M signatures/sec/core |
+
+Caveat I keep in the README: 3,041/s needs `DISPATCHER_INTERVAL=50ms` and `CLAIM_BATCH_SIZE=2000`; the stock 1 s / 64 defaults cap the claim loop near 64 deliveries/s. Ingest itself is the honest bottleneck at about 110 ev/s, one event row plus N delivery rows per commit.
+
 `Go` `PostgreSQL` `Redis` `Kubernetes` `Prometheus` `Docker`
 
 [Source](https://github.com/Gauravmrjatt/hookfire)
