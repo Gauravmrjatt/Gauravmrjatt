@@ -30,7 +30,7 @@ I build and run production systems: a multi-carrier logistics platform with paym
 ## Selected work
 
 ### Hookfire — webhook delivery engine
-A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, a CI pipeline that runs unit and integration tests under the race detector, and 13 test files.
+A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, and a CI pipeline that runs unit and integration tests under the race detector.
 
 **Measured, not estimated** (single Apple M2, Go 1.22, Postgres 16 + Redis 7 in Docker, Nov 2026):
 
