@@ -1,6 +1,16 @@
-# 👋 Hi, I'm Gaurav Chaudhary  
+# Gaurav Chaudhary
 
-### 💻 JavaScript | Full-Stack Developer  
+### Backend engineer — Go · Node.js · PostgreSQL · Redis · RabbitMQ
+
+I build and run production systems: a multi-carrier logistics platform with payments, an affiliate tracking panel at 527K leads, and a self-hosted webhook delivery engine in Go.
+
+**Numbers, not adjectives**
+
+| | |
+|---|---|
+| **527K leads** from 1.77M clicks (30% conversion) | affiliate panel, INR 2.8 Cr in payments processed |
+| **1,700+ orders** | multi-carrier shipping platform, ~50 franchise operators |
+| **5 production systems** | all currently deployed and maintained by me |
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" />
@@ -8,137 +18,77 @@
 
 ---
 
-## 🧠 About Me  
+## About
 
-- 🔭 Working on **Codellab**
-- 🌱 Learning **Kafka & Distributed Systems**
-- 👯 Open to **Open Source Collaboration**
-- 🤝 Exploring **System Design**
-- 💬 **React · Node.js · Next.js**
-- ⚡ ** 😄
+- 🔧 **Building** — [hookfire](https://github.com/Gauravmrjatt/hookfire), a webhook delivery engine in Go: at-least-once delivery, retries with backoff, dead-letter queue, idempotent ingestion, Redis rate limiting, Kubernetes with HPA
+- 🧠 **Working in** — Go, PostgreSQL, Redis, RabbitMQ, Kubernetes
+- 🎯 **Looking for** — 2027 new-grad Backend / SDE roles
+- 👥 **Open to** — open-source collaboration on Go and distributed-systems tooling
 
 ---
-
-## 🌐 Links  
-
-- 🌍 Portfolio → https://gauravmrjatt.vercel.app  
-- 📄 Resume → https://gauravmrjatt.vercel.app/resume.pdf  
-- 📫 Mail → **gauravmrjatt4@gmail.com**
-
----
-
-## 🤝 Connect  
-
-<p align="left">
-  <a href="https://github.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=github" /></a>
-  <a href="https://linkedin.com/in/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://codepen.io/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=codepen" /></a>
-  <a href="https://instagram.com/Gauravmrjatt"><img src="https://skillicons.dev/icons?i=instagram" /></a>
-</p>
-
----
-
-## 🛠️ Tech Stack  
-
-### 💻 Languages  
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,java,python,php,c" />
-</p>
-
-### ⚙️ Frameworks & Libraries  
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,graphql,tailwind,materialui" />
-</p>
-
-### 🗄️ Databases & Messaging  
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,kafka,rabbitmq" />
-</p>
-
-### ☁️ DevOps & Cloud  
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,nginx,linux,git,grafana" />
-</p>
-
-### 🧪 Tools  
-<p>
-  <img src="https://skillicons.dev/icons?i=jest,postman,firebase" />
-</p>
-
----
-
-## 🏆 GitHub Trophies  
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gauravmrjatt&theme=onedark&margin-w=10" />
-</p>
-
----
-
-## 📊 GitHub Stats  
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Gauravmrjatt&layout=compact" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gauravmrjatt&show_icons=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gauravmrjatt" />
-</p>
-
----
-
-
 
 ## Selected work
 
-### Instant Panel
-An affiliate campaign panel, about 31,000 lines. Campaign tracking, lead management and payout runs. Payouts drain through a RabbitMQ queue so a slow payout never blocks the request, Redis holds the hot reads, and Prometheus scrapes the metrics. 107 endpoints, 12 models, 10 test files.
+### Hookfire — webhook delivery engine
+A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, CI and 10 test files.
+
+`Go` `PostgreSQL` `Redis` `Kubernetes` `Prometheus` `Docker`
+
+[Source](https://github.com/Gauravmrjatt/hookfire)
+
+### Instant Panel — affiliate tracking
+An affiliate campaign panel supporting 527K leads from 1.77M tracked clicks at 30% conversion, with INR 2.8 Cr in payments processed. Every query is scoped `token → user → campaign`, so tenants cannot read across accounts. Conversions are idempotent on a unique `(campaign, event, click)` key and pass through ten ordered fraud gates before a lead is credited. Payouts drain through RabbitMQ so a slow gateway never blocks a request, Redis holds the hot reads, and Prometheus scrapes the metrics.
 
 `Next.js` `Express` `MongoDB` `Redis` `RabbitMQ` `Docker`
 
-[Source](https://github.com/Gauravmrjatt/instant-panel)
+[Live](https://panel5.logicpay.in) · [Source](https://github.com/Gauravmrjatt/instant-panel)
 
-### Cashbackwallah
-A logistics and shipping platform, about 59,000 lines. A customer prices a shipment, creates an order and tracks it. A franchise network sits on top, earning referral commission and requesting withdrawals. Razorpay handles the payments. 145 endpoints and 23 Prisma models behind a Next.js 16 client.
+### Cashbackwallah — multi-carrier logistics
+A shipping aggregator: one interface to compare live rates across courier partners, book the cheapest and track the shipment, with a franchise network earning commission on top. 1,700+ orders from about 50 franchise operators, 1,500 of them in a single three-month window. Razorpay payments with signature verification and replay-safe webhooks, KYC-gated ordering and scheduled refunds.
 
-`Next.js` `Express` `Prisma` `PostgreSQL` `Razorpay`
+`Next.js` `Express` `Prisma` `PostgreSQL` `Redis` `Razorpay`
 
-[Source](https://github.com/Gauravmrjatt/cheapship)
+[Live](https://cashbackwallah.com) · [Source](https://github.com/Gauravmrjatt/cheapship)
 
-### Codellab
-A collaborative coding platform. Two people can edit the same file at once through Yjs over WebSockets, then submit to a judge that runs the code inside Docker containers for Node, Python, Java and C++. About 32,000 lines, 23 routes, contests and live sessions.
+### Codellab — collaborative coding platform
+Two people edit the same file through Yjs over WebSockets, then submit to a judge that runs the code inside Docker containers for Node, Python, Java and C++. Each submission gets 0.5 CPU, a 128 MB memory cap, a 64-process limit, no network and a 3-second hard timeout before the container is killed. Contests and live sessions on top.
 
 `Next.js` `Yjs` `WebSocket` `PostgreSQL` `Docker`
 
-[Source](https://github.com/Gauravmrjatt/Codellab)
-
-### School
-A school management API. Apollo GraphQL with WebSocket subscriptions over 10 Prisma models covering students, attendance, exams and fee invoices. Kafka carries attendance, exam result and payment events, and Redis pub/sub fans results out to whoever is subscribed.
-
-`TypeScript` `Apollo` `Prisma` `PostgreSQL` `Redis` `Kafka`
-
-[Source](https://github.com/Gauravmrjatt/School)
+[Live](https://codelab.logicpay.in) · [Source](https://github.com/Gauravmrjatt/Codellab)
 
 <details>
 <summary><b>More projects</b></summary>
 
 <br/>
 
-| Project | What it does | Numbers | |
+| Project | What it does | Notes | |
 |---|---|---|---|
-| **TicketHub** | Event ticketing. Book a seat, then an admin approves or rejects the ticket request | 16 endpoints, 5 models | [Live](https://ticket-hub-ten.vercel.app) · [Repo](https://github.com/Gauravmrjatt/TicketHub) |
-| **DataVault** | Cloud storage that chunks files into Telegram channels, so capacity follows the channel rather than a paid bucket | 80 components | [Live](https://datavault-two.vercel.app) · [Repo](https://github.com/Gauravmrjatt/datavault) |
-| **OSM Fortress** | Gift code distribution with proof of work gating, anti scraping layers and device fingerprints | 66 routes, 58,000 lines | [Repo](https://github.com/Gauravmrjatt/osm-forest) |
+| **School** | School management API with Apollo GraphQL and WebSocket subscriptions. Kafka carries attendance, exam and payment events; Redis pub/sub fans results out | 10 Prisma models | [Repo](https://github.com/Gauravmrjatt/School) |
+| **OSM Fortress** | Gift code distribution with proof-of-work gating, anti-scraping layers and device fingerprints | 66 routes, 58,000 lines | [Repo](https://github.com/Gauravmrjatt/osm-forest) |
+| **TicketHub** | Event ticketing. Book a seat, then an admin approves or rejects the request | 16 endpoints, 5 models | [Live](https://ticket-hub-ten.vercel.app) · [Repo](https://github.com/Gauravmrjatt/TicketHub) |
+| **DataVault** | Cloud storage that chunks files into encrypted blobs, with resumable uploads and expiring share links | — | [Live](https://datavault-two.vercel.app) · [Repo](https://github.com/Gauravmrjatt/datavault) |
 | **EcoFinds** | Sustainable marketplace with search, cart and checkout | 10 endpoints, 4 models | [Live](https://eco-finds-sage.vercel.app) · [Repo](https://github.com/Gauravmrjatt/EcoFinds) |
-| **Telegram bot** | Group management: join approvals, force join verification, tracked broadcasts | 4 models | [Repo](https://github.com/Gauravmrjatt/tg-bot) |
-| **Tod AI** | Alphabet game for toddlers with phonetic audio | 45 components | [Live](https://tod-ai-teal.vercel.app) · [Repo](https://github.com/Gauravmrjatt/tod-ai) |
+| **Telegram bot** | Group management: join approvals, force-join verification, tracked broadcasts | 4 models | [Repo](https://github.com/Gauravmrjatt/tg-bot) |
 
 </details>
 
+---
 
+## Tech
 
-[gauravmrjatt4@gmail.com](mailto:gauravmrjatt4@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Portfolio](https://gauravmrjatt.vercel.app)
+### Languages
+<p><img src="https://skillicons.dev/icons?i=go,ts,js,java,python,sql" /></p>
+
+### Backend
+<p><img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis,rabbitmq,mongodb,prisma" /></p>
+
+### Infrastructure
+<p><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,nginx,linux,git,grafana,prometheus" /></p>
+
+### Frontend
+<p><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" /></p>
+
+---
+
+[gauravmrjatt4@gmail.com](mailto:gauravmrjatt4@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravmrjatt) · [Portfolio](https://gauravmrjatt.vercel.app) · [Resume](https://gauravmrjatt.vercel.app/resume.pdf)
