@@ -10,7 +10,7 @@ I build and run production systems: a multi-carrier logistics platform with paym
 |---|---|
 | **527K leads** from 1.77M clicks (30% conversion) | affiliate panel, INR 2.8 Cr in payments processed |
 | **1,700+ orders** | multi-carrier shipping platform, ~50 franchise operators |
-| **5 production systems** | all currently deployed and maintained by me |
+| **5 production systems** | all built and maintained by me |
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Gauravmrjatt&label=Profile%20views&color=0e75b6&style=flat" />
@@ -30,7 +30,7 @@ I build and run production systems: a multi-carrier logistics platform with paym
 ## Selected work
 
 ### Hookfire — webhook delivery engine
-A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, CI and 10 test files.
+A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. Events are ingested idempotently against a unique key, deliveries are claimed with `FOR UPDATE SKIP LOCKED` by a pool of workers, and failures retry with exponential backoff plus jitter before landing in a dead-letter queue that can be replayed. Requests are HMAC-signed with SSRF checks on the sender, rate limits are enforced per endpoint in Redis, and delivery metrics are exposed to Prometheus. Ships with Kubernetes manifests, an HPA, a CI pipeline that runs unit and integration tests under the race detector, and 13 test files.
 
 **Measured, not estimated** (single Apple M2, Go 1.22, Postgres 16 + Redis 7 in Docker, Nov 2026):
 
@@ -42,16 +42,16 @@ A self-hosted webhook delivery engine in Go, in the shape of Svix or Hookdeck. E
 | 4,000 concurrent duplicate postbacks, 200 keys | exactly **200 events**, 0 duplicates |
 | HMAC sign | 439 ns/op, about 2.3M signatures/sec/core |
 
-Caveat I keep in the README: 3,041/s needs `DISPATCHER_INTERVAL=50ms` and `CLAIM_BATCH_SIZE=2000`; the stock 1 s / 64 defaults cap the claim loop near 64 deliveries/s. Ingest itself is the honest bottleneck at about 110 ev/s, one event row plus N delivery rows per commit.
+Caveat I keep in the README: 3,041/s was measured with `DISPATCHER_INTERVAL=50ms` and `CLAIM_BATCH_SIZE=2000`, on a dispatcher that claimed one batch per tick, so the stock 1 s / 64 defaults capped it near 64 deliveries/s. That loop is fixed: it keeps claiming while batches come back full, so the cap is gone — though I have not re-run the benchmark on stock defaults, so treat 3,041/s as a floor rather than a default-config figure. Ingest is the honest bottleneck at about 110 events/s: one event row plus N delivery rows per commit.
 
 `Go` `PostgreSQL` `Redis` `Kubernetes` `Prometheus` `Docker`
 
 [Source](https://github.com/Gauravmrjatt/hookfire)
 
 ### Instant Panel — affiliate tracking
-An affiliate campaign panel supporting 527K leads from 1.77M tracked clicks at 30% conversion, with INR 2.8 Cr in payments processed. Every query is scoped `token → user → campaign`, so tenants cannot read across accounts. Conversions are idempotent on a unique `(campaign, event, click)` key and pass through ten ordered fraud gates before a lead is credited. Payouts drain through RabbitMQ so a slow gateway never blocks a request, Redis holds the hot reads, and Prometheus scrapes the metrics.
+An affiliate campaign panel holding 527K leads from 1.77M tracked clicks at 30% conversion, with INR 2.8 Cr in payments processed. Every query is scoped to its owner, so a tenant cannot read or write across accounts. A conversion is idempotent on a unique compound index, so a repeated postback is rejected instead of credited twice, and daily and lifetime caps are enforced from Redis rather than a count query. Postbacks fan out through RabbitMQ to eight consumers with dead-letter queues; measured locally at 1,000 requests/s for 30 seconds — 30,001 requests, p95 5.6 ms, zero failures, queue peak 17 messages.
 
-`Next.js` `Express` `MongoDB` `Redis` `RabbitMQ` `Docker`
+`Next.js` `Express` `MongoDB` `Redis` `RabbitMQ` `Prometheus` `Docker`
 
 [Live](https://panel5.logicpay.in) · [Source](https://github.com/Gauravmrjatt/instant-panel)
 
